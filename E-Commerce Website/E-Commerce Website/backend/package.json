@@ -1,0 +1,25 @@
+{
+  "name": "e-commerce-website-backend",
+  "version": "1.0.0",
+  "description": "Backend for E-Commerce Website with features like virtual try-on, recommendations, and campus marketplace.",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js",
+    "test": "jest"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.10.9",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "jsonwebtoken": "^8.5.1",
+    "bcryptjs": "^2.4.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4",
+    "jest": "^26.6.3"
+  },
+  "author": "Your Name",
+  "license": "MIT"
+}
